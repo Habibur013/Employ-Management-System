@@ -1,0 +1,282 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>employee management</title>
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/profile.css">
+    <link rel="stylesheet" href="css/table.css">
+
+    
+    <link rel="stylesheet" href="css/table.css">
+    <script src="js/jqery.js"></script>
+    <script src="js/table.js"></script>  
+
+   <script type="text/javascript">
+      $(document).ready(function() {
+        $('#example').DataTable();
+    } );
+  </script>
+
+ <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration:none;
+  border-right:2px solid blue;
+  background-color: #dddddd;
+}
+</style>
+
+</head>
+<body>
+  <div style="background: pink; height: 70px;">
+       <div style="background: blue; height: 70px;width: 80%;float: left;padding-top: .8%;">
+               <span style="font-size: 2vw; font-family: vardana; font-weight: bold;color: white;padding-left: 38%;">Employee Management System</span>
+       </div>
+       <div style="background: blue;color:white; height: 70px;width: 20%;float: left;padding-top: .8%;font-size: 1vw;">
+          <span style="margin-top: 8%;"><i class="far fa-user" style="padding-top:7%;"></i></span><span style="padding-left: 5%;"><b>Md. Habibur</b></span>
+       </div>
+  </div>
+
+<div style="background:olive; width: 100%;height: 80px;">
+  <div style="padding-top: 2%;">
+  <span><a class="nav-style" href="#">Home</a></span>
+  <span><a class="nav-style" href="projectsetup.html">Project</a></span>
+  <span><a class="nav-style" href="user.html">Users</a></span>
+   <span><a class="nav-style" href="signup.html">Registation</a></span>
+    <span><a class="nav-style" href="profile.html">Profile</a></span>
+  <span style="float:right;margin-right: 15%;"><button><a href="login.html">Log Out</a></button></span>
+ </div>
+</div>
+
+
+<div style="padding-top: 2%;">
+<table id="example" class="display" style="width:100%;">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>DOB</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>nixon123@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>16-07-1990</td>
+                <td>Nepal</td>
+            </tr>
+            <tr>
+                <td>Shohag</td>
+                <td>shohag@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>12-07-1990</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Habibur</td>
+                <td>habib@gmail.com</td>
+                <td>Male</td>
+                <td>66</td>
+                <td>14-02-1960</td>
+                <td>Pakisthan</td>
+            </tr>
+            <tr>
+                <td>Shahinur</td>
+                <td>shahinur@gmail.com</td>
+                <td>Male</td>
+                <td>22</td>
+                <td>23-06-1998</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Nipa</td>
+                <td>nipa@gmail.com</td>
+                <td>Female</td>
+                <td>33</td>
+                <td>23-08-1988</td>
+                <td>Maldive</td>
+            </tr>
+            <tr>
+                <td>Pitua</td>
+                <td>pitus@gmail.com</td>
+                <td>Female</td>
+                <td>61</td>
+                <td>23-04-1960</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Monir</td>
+                <td>monir@gmail.com</td>
+                <td>Male</td>
+                <td>59</td>
+                <td>21-01-19970</td>
+                <td>India</td>
+            </tr>
+            
+            <tr>
+                <td>Donna Snider</td>
+                <td>donna@gmail.com</td>
+                <td>Female</td>
+                <td>27</td>
+                <td>11-12-1993</td>
+                <td>New York</td>
+            </tr>
+             <tr>
+                <td>Tiger Nixon</td>
+                <td>nixon123@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>16-07-1990</td>
+                <td>Nepal</td>
+            </tr>
+            <tr>
+                <td>Shohag</td>
+                <td>shohag@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>12-07-1990</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Habibur</td>
+                <td>habib@gmail.com</td>
+                <td>Male</td>
+                <td>66</td>
+                <td>14-02-1960</td>
+                <td>Pakisthan</td>
+            </tr>
+            <tr>
+                <td>Shahinur</td>
+                <td>shahinur@gmail.com</td>
+                <td>Male</td>
+                <td>22</td>
+                <td>23-06-1998</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Nipa</td>
+                <td>nipa@gmail.com</td>
+                <td>Female</td>
+                <td>33</td>
+                <td>23-08-1988</td>
+                <td>Maldive</td>
+            </tr>
+            <tr>
+                <td>Pitua</td>
+                <td>pitus@gmail.com</td>
+                <td>Female</td>
+                <td>61</td>
+                <td>23-04-1960</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Monir</td>
+                <td>monir@gmail.com</td>
+                <td>Male</td>
+                <td>59</td>
+                <td>21-01-19970</td>
+                <td>India</td>
+            </tr>
+            
+            <tr>
+                <td>Donna Snider</td>
+                <td>donna@gmail.com</td>
+                <td>Female</td>
+                <td>27</td>
+                <td>11-12-1993</td>
+                <td>New York</td>
+            </tr>
+             <tr>
+                <td>Tiger Nixon</td>
+                <td>nixon123@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>16-07-1990</td>
+                <td>Nepal</td>
+            </tr>
+            <tr>
+                <td>Shohag</td>
+                <td>shohag@gmail.com</td>
+                <td>Male</td>
+                <td>30</td>
+                <td>12-07-1990</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Habibur</td>
+                <td>habib@gmail.com</td>
+                <td>Male</td>
+                <td>66</td>
+                <td>14-02-1960</td>
+                <td>Pakisthan</td>
+            </tr>
+            <tr>
+                <td>Shahinur</td>
+                <td>shahinur@gmail.com</td>
+                <td>Male</td>
+                <td>22</td>
+                <td>23-06-1998</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Nipa</td>
+                <td>nipa@gmail.com</td>
+                <td>Female</td>
+                <td>33</td>
+                <td>23-08-1988</td>
+                <td>Maldive</td>
+            </tr>
+            <tr>
+                <td>Pitua</td>
+                <td>pitus@gmail.com</td>
+                <td>Female</td>
+                <td>61</td>
+                <td>23-04-1960</td>
+                <td>Bangladesh</td>
+            </tr>
+            <tr>
+                <td>Monir</td>
+                <td>monir@gmail.com</td>
+                <td>Male</td>
+                <td>59</td>
+                <td>21-01-19970</td>
+                <td>India</td>
+            </tr>
+            
+            <tr>
+                <td>Donna Snider</td>
+                <td>donna@gmail.com</td>
+                <td>Female</td>
+                <td>27</td>
+                <td>11-12-1993</td>
+                <td>New York</td>
+            </tr>
+        </tbody>
+        
+    </table>
+</div>
+
+
+
+
+</body>
+</html> 
