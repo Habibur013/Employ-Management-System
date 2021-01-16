@@ -1,0 +1,12 @@
+body{
+	margin: 0px; padding:0px;
+	    background-color: #ddd;
+}
+
+.nav-style{
+	font-family:vardana; text-decoration:none;
+	padding: 2%;height: 50px;margin-top: 5px;border-right: 2px solid blue;color: white;
+}
+.pd01{
+	margin-left: 5%;
+}
